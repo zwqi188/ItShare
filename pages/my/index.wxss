@@ -1,1 +1,4 @@
 /* pages/my/index.wxss */
+.left{
+  margin-left: -300%
+}
