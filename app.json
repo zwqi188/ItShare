@@ -1,7 +1,12 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/my/index"
+    "pages/my/index",
+    "pages/search/index",
+    "pages/detail/index",
+    "pages/login/index",
+    "pages/list/index",
+    "component/head/index"
   ],
   "window": {
     "navigationBarTitleText": "ItShare",
