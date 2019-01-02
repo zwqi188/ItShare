@@ -4,7 +4,11 @@
     "pages/my/index"
   ],
   "window": {
-    "navigationBarTitleText": "ItShare"
+    "navigationBarTitleText": "ItShare",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "list": [
