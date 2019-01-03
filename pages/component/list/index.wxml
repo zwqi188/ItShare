@@ -1,0 +1,38 @@
+<template name="list">
+<bar class="margin-top">
+  <view class='action'>
+    <icon class='icon-title text-pink' /> 站长推荐
+  </view>
+</bar>
+<list class="menu menu-avatar inverts">
+    <item>
+      <avatar class="round lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></avatar>
+      <view class='content'>
+        <view class='text-grey'>java基础</view>
+        <view class='text-gray text-sm'>
+          分享人：张三</view>
+      </view>
+      <view class='action'>
+        <view class='text-grey text-xs'>22:20</view>
+        <tag class="round bg-grey sm">5</tag>
+      </view>
+    </item>
+
+    <item>
+      <avatar class="round lg" style="background-image:url(https://image.weilanwl.com/img/square-2.jpg);">
+        <tag class="badge">99+</tag>
+      </avatar>
+      <view class='content'>
+        <view class='text-grey'>python基础
+          <tag class="round bg-orange md">站长</tag>
+        </view>
+        <view class='text-gray text-sm'>
+          <icon class='icon-infofill text-red'/> 分享人：蓝天白云</view>
+      </view>
+      <view class='action'>
+        <view class='text-grey text-xs'>22:20</view>
+        <tag class="round bg-grey sm">500</tag>
+      </view>
+    </item>
+  </list>
+  </template>

@@ -1,4 +1,4 @@
-// component/head/index.js
+// pages/component/list/index.js
 Page({
 
   /**

@@ -1,8 +1,6 @@
-<custom style="height:{{CustomBar}}px;">
-  <bar class="fixed gradual-blue" style="height:{{CustomBar}}px;padding-top:{{StatusBar}}px;">
-    <view class='content'>ItShare</view>
-  </bar>
-</custom>
+<import src="../component/head/index.wxml"/>
+<template is="head"></template>
+
 <view class="margin-xl padding-xl bg-white radius shadow-lg">
   <view class="flex justify-center">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='round bg-green shadow'> 获取头像昵称 </button>
