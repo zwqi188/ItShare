@@ -4,6 +4,7 @@
 <template is="head"></template>
 <view class="padding bg-white">
     <view class="flex">
+     <view class='basis-sm padding-sm margin-xs'>导航</view>
       <view class='basis-sm padding-sm margin-xs'>热门资源</view>
       <view class='basis-sm padding-sm margin-xs'>全部资源</view>
       <view class='basis-xs padding-sm margin-xs'><icon class='icon-search text-gray'/></view>
