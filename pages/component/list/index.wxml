@@ -1,7 +1,7 @@
 <template name="list">
 <bar class="margin-top">
   <view class='action' bindtap='test'>
-    <icon class='icon-title text-pink' /> 站长推荐
+    <icon class='icon-title text-pink' /> 列表
   </view>
 </bar>
 

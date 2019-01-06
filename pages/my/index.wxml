@@ -2,17 +2,72 @@
 <template is="head"></template>
 
 <view class="margin-xl padding-xl bg-white radius shadow-lg">
-  <view class="flex justify-center">
+  <view class="flex">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='round bg-green shadow'> 获取头像昵称 </button>
     <block wx:else>
-      <view class='text-center'>
-        <avatar class="xl round solids left" style="background-image:url({{userInfo.avatarUrl}})"></avatar>
-        <view class="padding">{{userInfo.nickName}}</view>
-      </view>
+     <list class="menu menu-avatar">
+      <item>
+        <avatar class="round lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);">
+         <tag class="badge">vip</tag></avatar>
+        <view class='content flex-sub'>
+         <view class="padding">{{userInfo.nickName}}</view>
+          <icon class='icon-coin lg text-gray'/>
+    <text>5</text>
+    <icon class='icon-medal lg text-gray'/>
+    <text>3</text>
+          <view class='text-gray text-sm flex justify-between'>
+            2018年12月3日
+          </view>
+        </view>
+      </item>
+    </list>
     </block>
   </view>
 </view>
+<bar class="margin-top">
+  <view class='action'>
+    <scroll-view scroll-x class="bg-white nav" scroll-with-animation scroll-left="{{scrollLeft}}">
+    <item class="{{index==TabCur?'text-green cur':''}}" wx:for="{{6}}" wx:key bindtap='tabSelect' data-id="{{index}}">
+      <icon class='icon-title text-green' /> 1月{{index}}日
+    </item>
+    <item class="{{index==TabCur?'text-green cur':''}}" wx:for="{{6}}" wx:key bindtap='tabSelect' data-id="{{index}}">
+      <icon class='icon-title text-orange' /> 1月{{index}}日
+    </item>
+  </scroll-view>
+     <button class='bg-green lg' style='margin-right:50px;'>签到</button>
+  </view>
+</bar>
 
-<view class="text-center margin-top">
-  <text class="text-grey text-xl">你好</text>
-</view>
+<bar class="margin-top">
+  <view class='action'>
+    <icon class='icon-title text-green ' />
+    <text>我的订单</text>
+  </view>
+</bar>
+ <list class="grid col-3">
+  <item>
+    <icon class='icon-pay lg text-gray'/>
+    <text>购买</text>
+    </item>
+    <item>
+     <icon class='icon-recharge lg text-gray'/>
+    <text>充值</text>
+  </item>
+</list>
+<bar class="margin-top">
+  <view class='action'>
+    <icon class='icon-title text-green ' />
+    <text>我的资源</text>
+  </view>
+</bar>
+<list class="grid col-3">
+  <item>
+    <icon class='icon-upload lg text-gray'/>
+    <text>上传</text>
+    </item>
+    <item>
+     <icon class='icon-down lg text-gray'/>
+    <text>下载</text>
+  </item>
+</list>
+

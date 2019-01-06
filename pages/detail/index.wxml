@@ -1,3 +1,54 @@
 <import src="../component/headReturn/index.wxml"/>
-
-<template name="headReturn"/>
+<template is="headReturn"></template>
+<card class="dynamic">
+  <item wx:for="1" wx:key class="shadow">
+    <list class="menu menu-avatar">
+      <item>
+        <avatar class="round lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></avatar>
+        <view class='content flex-sub'>
+          <view>分享人：晓晓萌</view>
+          <view class='text-gray text-sm flex justify-between'>
+            2018年12月3日
+          </view>
+        </view>
+      </item>
+    </list>
+    <view class='text-content'>
+      接口调用成功的回调函数，接口调用成功的回调函数，接口调用成功的回调函数，接口调用成功的回调函数，接口调用成功的回调函数，接口调用成功的回调函数
+    </view>
+    <view class="grid {{isCard?'col-3 grid-square':'col-1'}} flex-sub padding-lr">
+      <view class="bg-img {{isCard?'':'only-img'}}" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);" wx:for="{{isCard?9:1}}" wx:key>
+      </view>
+    </view>
+    <view class='text-gray text-sm text-right padding'>
+      <icon class="icon-attentionfill" /> 10
+      <icon class="icon-appreciatefill" /> 20
+      <icon class="icon-messagefill" /> 30
+    </view>
+    <list class="menu menu-avatar comment solids-top">
+      <item wx:for="{{2}}" wx:key>
+        <avatar class="round" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></avatar>
+        <view class='content'>
+          <view class='text-grey'>猪皮蛋</view>
+          <view class='text-content text-df'>
+            这是一个不错的资源！
+          </view>
+          <view class='margin-top-sm flex justify-between'>
+            <view class='text-gray text-df'>2018年12月4日</view>
+            <view>
+              <icon class="icon-appreciate{{!isZan?'fill':''}} text-{{!isZan?'red':'gray'}}" />
+              20
+            </view>
+          </view>
+        </view>
+      </item>
+    </list>
+  </item>
+</card>
+ <form-group wx:hide="{{modalName==null}}">
+    <textarea placeholder="多行文本输入框" maxlength="-1" disabled="{{modalName!=null}}" placeholder-class='placeholder'></textarea>
+      <view class='action'>
+    <button class='bg-green shadow-blur sm'>提交
+      <icon class='icon-add' /> </button>
+  </view>
+  </form-group>

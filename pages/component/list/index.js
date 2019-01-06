@@ -63,13 +63,5 @@ Page({
 
   },
 
-  toDetail: function () {
-    wx.navigateTo({
-      url: '../../detail/index',
-    })
-  },
-
-  test: function() {
-    console.log("test");
-  }
+  
 })
