@@ -1,1 +1,3 @@
-<!--pages/detail/index.wxml-->
+<import src="../component/headReturn/index.wxml"/>
+
+<template name="headReturn"/>

@@ -1,0 +1,10 @@
+<template name="headReturn">
+  <custom style="height:80px;">
+    <bar class="fixed gradual-blue" style="height:80px;padding-top:40px;">
+      <navigator class='action' open-type="navigateBack" delta="1" hover-class="none">
+      <icon class='icon-back' />
+      <text>返回</text>
+    </navigator>
+    </bar>
+  </custom>
+</template>

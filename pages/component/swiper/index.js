@@ -99,4 +99,8 @@ Page({
       })
     }
   },
+
+  cardSwiper(){
+    console.log("cardSwiper");
+  }
 });

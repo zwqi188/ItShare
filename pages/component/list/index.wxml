@@ -1,11 +1,12 @@
 <template name="list">
 <bar class="margin-top">
-  <view class='action'>
+  <view class='action' bindtap='test'>
     <icon class='icon-title text-pink' /> 站长推荐
   </view>
 </bar>
+
 <list class="menu menu-avatar inverts">
-    <item>
+    <item bindtap="toDetail">
       <avatar class="round lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></avatar>
       <view class='content'>
         <view class='text-grey'>java基础</view>
@@ -18,7 +19,7 @@
       </view>
     </item>
 
-    <item>
+    <item bindtap='toDetail'>
       <avatar class="round lg" style="background-image:url(https://image.weilanwl.com/img/square-2.jpg);">
         <tag class="badge">99+</tag>
       </avatar>

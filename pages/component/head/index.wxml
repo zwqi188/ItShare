@@ -1,7 +1,8 @@
 <template name="head">
   <custom style="height:80px;">
     <bar class="fixed gradual-blue" style="height:80px;">
-      <view class='content'>ItShare</view>
+    <text class='content'>ItShare</text>
     </bar>
   </custom>
+  
 </template>
