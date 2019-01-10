@@ -52,5 +52,25 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  toBuy: function() {
+    wx.navigateTo({
+      url: '../buy/index',
+    })
+  },
+  toCharge: function() {
+    wx.navigateTo({
+      url: '../charge/index',
+    })
+  },
+  toUpload: function() {
+    wx.navigateTo({
+      url: '../upload/index',
+    })
+  },
+  toUploadList: function() {
+    wx.navigateTo({
+      url: '../uploadList/index',
+    })
   }
 })

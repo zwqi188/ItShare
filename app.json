@@ -4,12 +4,16 @@
     "pages/my/index",
     "pages/search/index",
     "pages/detail/index",
-    "pages/login/index",
-    "pages/list/index",
+    "pages/buy/index",
+    "pages/charge/index",
+    "pages/upload/index",
+    "pages/uploadList/index",
     "pages/component/head/index",
     "pages/component/headReturn/index",
     "pages/component/swiper/index",
-    "pages/component/list/index"
+    "pages/component/list/index",
+    "pages/component/success/index",
+    "pages/component/modal/index"
   ],
   "window": {
     "navigationBarTitleText": "ItShare",

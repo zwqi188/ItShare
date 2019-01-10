@@ -1,7 +1,7 @@
 <import src="../component/headReturn/index.wxml"/>
 <template is="headReturn"></template>
 <card class="dynamic">
-  <item wx:for="1" wx:key class="shadow">
+  <item class="shadow">
     <list class="menu menu-avatar">
       <item>
         <avatar class="round lg" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);"></avatar>
@@ -17,7 +17,7 @@
       接口调用成功的回调函数，接口调用成功的回调函数，接口调用成功的回调函数，接口调用成功的回调函数，接口调用成功的回调函数，接口调用成功的回调函数
     </view>
     <view class="grid {{isCard?'col-3 grid-square':'col-1'}} flex-sub padding-lr">
-      <view class="bg-img {{isCard?'':'only-img'}}" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);" wx:for="{{isCard?9:1}}" wx:key>
+      <view class="bg-img {{isCard?'':'only-img'}}" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);" >
       </view>
     </view>
     <view class='text-gray text-sm text-right padding'>

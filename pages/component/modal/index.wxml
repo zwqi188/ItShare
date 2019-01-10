@@ -1,0 +1,22 @@
+<template name="modal">
+<modal-box class="{{modalName=='DialogModal1'?'show':''}}">
+  <dialog>
+    <bar class="justify-end">
+      <view class='content'>Modal标题</view>
+      <view class='action' bindtap='hideModal'>
+        <icon class='icon-close text-red'></icon>
+      </view>
+    </bar>
+    <view class='padding-xl'>
+      Modal 内容。
+    </view>
+    <bar class="justify-end">
+      <view class='action'>
+        <button class='line-green text-green' bindtap='hideModal'>取消</button>
+        <button class='bg-green margin-left' bindtap='hideModal'>确定</button>
+
+      </view>
+    </bar>
+  </dialog>
+</modal-box>
+</template>

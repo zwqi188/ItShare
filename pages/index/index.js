@@ -51,9 +51,9 @@ Page({
       hasUserInfo: true
     })
   },
-  toList: function () {
+  toSearch: function () {
     wx.navigateTo({
-      url: '../list/index',
+      url: '../search/index',
     })
   },
   /**

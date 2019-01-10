@@ -1,0 +1,39 @@
+<import src="../component/headReturn/index.wxml"/>
+<template is="headReturn"></template>
+<form-group class="margin-top">
+    <view class='title'>资源名</view>
+    <input placeholder="短标题" class='radius' name='input'></input>
+  </form-group>
+  <form-group>
+    <view class='title'>资源描述</view>
+    <input placeholder="三字标题" class='radius' name='input'></input>
+  </form-group>
+  <form-group>
+   <view class='title'>售价</view>
+    <input placeholder="三字标题" class='radius' name='input'></input>
+  </form-group>
+  <form-group>
+   <view class='title'>网盘地址</view>
+    <input placeholder="三字标题" class='radius' name='input'></input>
+  </form-group>
+  <form-group>
+   <view class='title'>密码</view>
+    <input placeholder="三字标题" class='radius' name='input'></input>
+  </form-group>
+   <form-group class="margin-top">
+    <view class="grid col-3 grid-square flex-sub">
+      <view class="padding-xs bg-img" style="background-image:url(https://image.weilanwl.com/img/square-1.jpg);">
+      </view>
+      <view class="padding-xs bg-img" style="background-image:url(https://image.weilanwl.com/img/square-2.jpg);">
+        <tag class="bg-red">
+          <icon class='icon-close'></icon>
+        </tag>
+      </view>
+      <view class="padding-xs solids">
+        <icon class='icon-cameraadd'></icon>
+      </view>
+    </view>
+  </form-group>
+ <view class="padding">
+  <button class='block bg-blue margin-tb-sm lg' disabled type=''>提交</button>
+  </view>

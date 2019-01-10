@@ -1,0 +1,50 @@
+<import src="../component/headReturn/index.wxml"/>
+<template is="headReturn"></template>
+<timeline>
+  <time>昨天</time>
+  <item class='cur icon-noticefill'>
+    <view class="content bg-green shadow-blur">
+      <text>22:22</text> java基础教程
+    </view>
+  </item>
+  <item class='text-red icon-attentionforbidfill'>
+    <view class="content bg-red shadow-blur">
+      <text>20:22</text> python基础教程
+    </view>
+  </item>
+  <item class='text-grey icon-evaluate_fill'>
+    <view class="content bg-grey shadow-blur">
+      <text>8:22</text> python基础教程
+    </view>
+  </item>
+  <item class='text-blue'>
+    <view class="bg-blue content">
+      <text>1:22</text> python基础教程
+    </view>
+    <view class="bg-cyan content">
+      <text>00:10</text> 准备发往月球
+    </view>
+  </item>
+</timeline>
+
+<timeline>
+  <time>前天</time>
+  <item>
+    <view class="content">
+      <text>1:22</text> python基础教程
+    </view>
+  </item>
+</timeline>
+
+<timeline>
+  <time>06-17</time>
+  <item>
+    <view class="content">
+      <capsule class="radius">
+        <tag class="bg-cyan">上午</tag>
+        <tag class="line-cyan">10:00</tag>
+      </capsule>
+      <view class='margin-top'>这是第一次</view>
+    </view>
+  </item>
+</timeline>

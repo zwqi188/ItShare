@@ -1,7 +1,7 @@
 <import src="../component/head/index.wxml"/>
 <template is="head"></template>
 
-<view class="margin-xl padding-xl bg-white radius shadow-lg">
+<view class="padding-xl bg-white radius shadow-lg">
   <view class="flex">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='round bg-green shadow'> 获取头像昵称 </button>
     <block wx:else>
@@ -45,11 +45,11 @@
   </view>
 </bar>
  <list class="grid col-3">
-  <item>
+  <item bindtap='toBuy'>
     <icon class='icon-pay lg text-gray'/>
     <text>购买</text>
     </item>
-    <item>
+    <item bindtap='toCharge'>
      <icon class='icon-recharge lg text-gray'/>
     <text>充值</text>
   </item>
@@ -61,13 +61,13 @@
   </view>
 </bar>
 <list class="grid col-3">
-  <item>
+  <item bindtap='toUpload'>
     <icon class='icon-upload lg text-gray'/>
     <text>上传</text>
     </item>
-    <item>
-     <icon class='icon-down lg text-gray'/>
-    <text>下载</text>
-  </item>
+    <item bindtap='toUploadList'>
+    <icon class='icon-list lg text-gray'/>
+    <text>资源列表</text>
+    </item>
 </list>
 

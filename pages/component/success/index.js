@@ -1,4 +1,4 @@
-// pages/list/index.js
+// pages/component/success/index.js
 Page({
 
   /**
@@ -62,13 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  /**
-   * 跳转到详情
-   */
-  toDetail: function () {
-    wx.navigateTo({
-      url: '../detail/index',
-    })
   }
 })

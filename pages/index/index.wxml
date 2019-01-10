@@ -4,9 +4,9 @@
 <template is="head"></template>
 <view class="padding bg-white">
     <view class="flex">
-      <view class='basis-sm padding-sm margin-xs' bindtap='toList'>热门资源</view>
-      <view class='basis-sm padding-sm margin-xs' bindtap='toList'>全部资源</view>
-      <view class='basis-xs padding-sm margin-xs' bindtap='toList'><icon class='icon-search text-gray'/></view>
+      <view class='basis-sm padding-sm margin-xs' bindtap='toSearch'>热门资源</view>
+      <view class='basis-sm padding-sm margin-xs' bindtap='toSearch'>全部资源</view>
+      <view class='basis-xs padding-sm margin-xs' bindtap='toSearch'><icon class='icon-search text-gray'/></view>
     </view>
 </view>
 

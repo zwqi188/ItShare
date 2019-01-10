@@ -1,0 +1,34 @@
+<import src="../component/headReturn/index.wxml"/>
+<template is="headReturn"></template>
+<timeline>
+  <time>06-17</time>
+  <item>
+    <view class="content">
+      <capsule class="radius">
+        <tag class="bg-cyan">上午</tag>
+        <tag class="line-cyan">10:00</tag>
+      </capsule>
+      <view class='margin-top'>这是第一次，我家的铲屎官走了这么久。久到足足有三天！！ 在听到他的脚步声响在楼梯间的那一刻，我简直想要破门而出，对着他狠狠地吼上10分钟，然后再看心情要不要他进门。</view>
+    </view>
+  </item>
+  <time>06-17</time>
+  <item>
+    <view class="content">
+      <capsule class="radius">
+        <tag class="bg-cyan">上午</tag>
+        <tag class="line-cyan">10:00</tag>
+      </capsule>
+      <view class='margin-top'>这是第一次，我家的铲屎官走了这么久。久到足足有三天！！ 在听到他的脚步声响在楼梯间的那一刻，我简直想要破门而出，对着他狠狠地吼上10分钟，然后再看心情要不要他进门。</view>
+    </view>
+  </item>
+  <time>06-17</time>
+  <item>
+    <view class="content">
+      <capsule class="radius">
+        <tag class="bg-cyan">上午</tag>
+        <tag class="line-cyan">10:00</tag>
+      </capsule>
+      <view class='margin-top'>这是第一次，我家的铲屎官走了这么久。久到足足有三天！！ 在听到他的脚步声响在楼梯间的那一刻，我简直想要破门而出，对着他狠狠地吼上10分钟，然后再看心情要不要他进门。</view>
+    </view>
+  </item>
+</timeline>

@@ -1,4 +1,4 @@
-// pages/list/index.js
+// pages/charge/index.js
 Page({
 
   /**
@@ -63,12 +63,19 @@ Page({
   onShareAppMessage: function () {
 
   },
-  /**
-   * 跳转到详情
-   */
-  toDetail: function () {
+  toSuccess: function() {
     wx.navigateTo({
-      url: '../detail/index',
+      url: '../component/success/index',
+    })
+  },
+  showModal(e) {
+    this.setData({
+      modalName: e.currentTarget.dataset.target
+    })
+  },
+  hideModal(e) {
+    this.setData({
+      modalName: null
     })
   }
 })
