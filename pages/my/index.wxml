@@ -47,11 +47,11 @@
  <list class="grid col-3">
   <item bindtap='toBuy'>
     <icon class='icon-pay lg text-gray'/>
-    <text>购买</text>
+    <text>列表</text>
     </item>
     <item bindtap='toCharge'>
      <icon class='icon-recharge lg text-gray'/>
-    <text>充值</text>
+    <text>兑换</text>
   </item>
 </list>
 <bar class="margin-top">

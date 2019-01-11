@@ -1,10 +1,10 @@
 <import src="../component/headReturn/index.wxml"/>
 <template is="headReturn"></template>
  <view class='solid-bottom text-xxl padding'>
-         <input placeholder="充值金额" class='radius' name='input'></input>
+         <input placeholder="测试" class='radius' name='input'></input>
       </view>
       <view class="padding">
-  <button class='block bg-blue margin-tb-sm lg' type='' bindtap="showModal" data-target="DialogModal1">充值</button>
+  <button class='block bg-blue margin-tb-sm lg' type='' bindtap="showModal" data-target="DialogModal1">确定</button>
   </view>
  <modal-box class="{{modalName=='DialogModal1'?'show':''}}">
   <dialog>
